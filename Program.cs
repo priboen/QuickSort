@@ -54,7 +54,8 @@ namespace QuickSort
             if (low > high)
                 return;
 
-          
+            i = low + 1;
+            j = high;
         }
         static void Main(string[] args)
         {
