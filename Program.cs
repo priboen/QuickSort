@@ -104,6 +104,9 @@ namespace QuickSort
             {
                 Console.WriteLine(arr[j]);
             }
+
+            Console.WriteLine("\nNumber of comparisons : " + cmp_count);
+
         }
         static void Main(string[] args)
         {
