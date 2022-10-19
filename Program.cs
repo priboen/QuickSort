@@ -56,6 +56,8 @@ namespace QuickSort
 
             i = low + 1;
             j = high;
+
+            pivot = arr[low];
         }
         static void Main(string[] args)
         {
