@@ -74,6 +74,11 @@ namespace QuickSort
                     cmp_count++;
                 }
                 cmp_count++;
+
+                if (i < j)
+                {
+
+                }
             }
         }
         static void Main(string[] args)
