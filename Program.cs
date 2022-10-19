@@ -48,6 +48,10 @@ namespace QuickSort
             arr[y] = temp;
         }
 
+        public void q_sort(int low, int high)
+        {
+
+        }
         static void Main(string[] args)
         {
         }
