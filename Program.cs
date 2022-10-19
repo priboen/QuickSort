@@ -77,6 +77,8 @@ namespace QuickSort
 
                 if (i < j)
                 {
+                    swap(i, j);
+                    mov_count++;
 
                 }
             }
