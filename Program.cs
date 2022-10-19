@@ -39,7 +39,7 @@ namespace QuickSort
 
             void swap(int x, int y)
             {
-
+                int temp;
             }
         }
         static void Main(string[] args)
