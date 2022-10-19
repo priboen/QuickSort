@@ -13,6 +13,11 @@ namespace QuickSort
         private int mov_count = 0;
 
         private int n;
+
+        void Input()
+        {
+
+        }
         static void Main(string[] args)
         {
         }
