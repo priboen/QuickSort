@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -30,21 +31,17 @@ namespace QuickSort
             Console.WriteLine("Enter Array Elements : ");
             Console.WriteLine("\n===================================================");
 
-            for (int i = 0;i < n; i++)
+            for (int i = 0; i < n; i++)
             {
-                Console.Write("<" + (i +1) + ">");
+                Console.Write("<" + (i + 1) + ">");
                 string s1 = Console.ReadLine();
                 arr[i] = Int32.Parse(s1);
             }
+        }
 
-            void swap(int x, int y)
-            {
-                int temp;
+        void swap(int x, int y)
+        {
 
-                temp = arr[x];
-                arr[x] = arr[y];
-                arr[y] = temp;
-            }
         }
         static void Main(string[] args)
         {
