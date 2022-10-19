@@ -121,6 +121,7 @@ namespace QuickSort
             myList.display();
 
             Console.WriteLine("\nPress Enter to Exit.");
+            Console.Read();
         }
     }
 }
