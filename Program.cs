@@ -52,7 +52,9 @@ namespace QuickSort
         {
             int pivot, i, j;
             if (low > high)
-                return
+                return;
+
+          
         }
         static void Main(string[] args)
         {
