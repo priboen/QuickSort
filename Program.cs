@@ -96,7 +96,9 @@ namespace QuickSort
 
         void display()
         {
-
+            Console.WriteLine("\n----------------------------------");
+            Console.WriteLine("Sorted Array Elements");
+            Console.WriteLine("\n----------------------------------");
         }
         static void Main(string[] args)
         {
