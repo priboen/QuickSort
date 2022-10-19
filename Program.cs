@@ -117,6 +117,7 @@ namespace QuickSort
         {
             Program myList = new Program();
             myList.Input();
+            myList.q_sort(0, myList.getSize() - 1);
         }
     }
 }
