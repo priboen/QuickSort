@@ -102,7 +102,7 @@ namespace QuickSort
 
             for (int j = 0; j < n; j++)
             {
-
+                Console.WriteLine(arr[j]);
             }
         }
         static void Main(string[] args)
