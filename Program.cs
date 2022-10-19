@@ -85,7 +85,8 @@ namespace QuickSort
 
             if (low < j)
             {
-
+                swap(low, j);
+                mov_count++;
             }
         }
         static void Main(string[] args)
