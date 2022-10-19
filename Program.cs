@@ -119,6 +119,8 @@ namespace QuickSort
             myList.Input();
             myList.q_sort(0, myList.getSize() - 1);
             myList.display();
+
+            Console.WriteLine("\nPress Enter to Exit.");
         }
     }
 }
