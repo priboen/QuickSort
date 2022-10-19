@@ -82,6 +82,11 @@ namespace QuickSort
 
                 }
             }
+
+            if (low < j)
+            {
+
+            }
         }
         static void Main(string[] args)
         {
