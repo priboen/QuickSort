@@ -20,6 +20,7 @@ namespace QuickSort
             {
                 Console.Write("Enter the number of elements in the array : ");
                 string s = Console.ReadLine();
+                n = Int32.Parse(s);
             }
         }
         static void Main(string[] args)
