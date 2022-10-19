@@ -50,7 +50,7 @@ namespace QuickSort
 
         public void q_sort(int low, int high)
         {
-
+            int pivot, i, j;
         }
         static void Main(string[] args)
         {
